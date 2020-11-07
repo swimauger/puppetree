@@ -1,0 +1,21 @@
+{
+  "name": "puppetree",
+  "author": "Mark Auger",
+  "version": "1.0.0",
+  "main": "lib/index.ts",
+  "types": "lib",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node test.js"
+  },
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "puppeteer": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.5",
+    "@types/puppeteer": "^5.4.0",
+    "typescript": "^4.0.5"
+  }
+}
