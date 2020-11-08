@@ -5,6 +5,7 @@
   "main": "lib/index.ts",
   "types": "lib",
   "type": "commonjs",
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "dev": "node test.js"
